@@ -19,15 +19,19 @@ A Streamlit dashboard that analyzes GitHub repositories and provides insights in
 
 ## Project Structure
 repo-analyzer/
+
 │
 ├── app.py
 ├── core/
+
 │ ├── git_loader.py
 │ ├── commit_analyzer.py
 │ ├── productivity.py
 │ └── repo_health.py
 │
+
 ├── .streamlit/
+
 │ └── config.toml
 │
 └── README.md
