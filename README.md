@@ -1,42 +1,51 @@
-# GitHub Repo Analyzer 📊
+# GitHub Repository Analyzer
 
-A Streamlit dashboard that analyzes GitHub repositories and provides insights into commit activity, productivity, and repository health.
+A web-based analytics dashboard that evaluates GitHub repositories and provides actionable insights into development activity, contributor engagement, and repository health. The application leverages Git metadata to generate visualizations and metrics that help developers monitor project progress and identify potential maintenance concerns.
 
 ## Features
 
-- 📅 Commits per day visualization
-- 📊 Total commits and contributor stats
-- 📦 Detect large files in repository
-- ⚡ Real-time Git repo analysis using GitPython
-- 🎨 Interactive dashboard using Streamlit
+* Analyze commit activity and trends over time
+* Visualize commits on a daily basis through interactive charts
+* Track repository statistics, including total commits and contributor metrics
+* Identify large files that may impact repository performance and maintainability
+* Perform real-time repository analysis using GitPython
+* Interactive dashboard interface built with Streamlit
 
-## Tech Stack
+## Technology Stack
 
-- Python
-- Streamlit
-- Pandas
-- GitPython
+* Python
+* Streamlit
+* Pandas
+* GitPython
 
 ## Project Structure
-repo-analyzer/
 
+```text
+repo-analyzer/
 │
 ├── app.py
 ├── core/
-
-│ ├── git_loader.py
-│ ├── commit_analyzer.py
-│ ├── productivity.py
-│ └── repo_health.py
+│   ├── git_loader.py
+│   ├── commit_analyzer.py
+│   ├── productivity.py
+│   └── repo_health.py
 │
-
 ├── .streamlit/
-
-│ └── config.toml
+│   └── config.toml
 │
 └── README.md
+```
 
 ## Installation
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Use Cases
+
+* Repository activity monitoring
+* Contributor productivity analysis
+* Open-source project evaluation
+* Repository health assessment
+* Software engineering analytics
